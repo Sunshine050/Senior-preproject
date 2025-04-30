@@ -24,7 +24,7 @@ npx prisma migrate dev --name <name>	สร้างและรัน migration
 npx prisma migrate reset	ล้างฐานข้อมูลและ migration ใหม่
 npx prisma studio	เปิด UI สำหรับจัดการข้อมูล
 npx prisma db push	อัปเดต schema ไปยังฐานข้อมูล
-
+------------------------------------------------------------------
 💻 Frontend – 🔗 emergency-frontend
 สร้างด้วย React Native + Expo สำหรับแสดงผล UI และเชื่อมต่อ API
 🚀 เริ่มต้นใช้งาน
@@ -35,7 +35,7 @@ git clone https://github.com/Sunshine050/emergency-frontend.git
 cd emergency-frontend
 npm install
 npx expo start
-
+------------------------------------------------------------------
 🌍 Destination System – 🔗 Destinationsystem
 ระบบปลายทางรับข้อมูลจาก Backend แสดงตำแหน่ง GPS และสถานะผู้ป่วย
 🚀 เริ่มต้นใช้งาน
@@ -46,3 +46,4 @@ git clone https://github.com/Sunshine050/Destinationsystem.git
 cd Destinationsystem
 npm install
 npm run dev
+------------------------------------------------------------------
